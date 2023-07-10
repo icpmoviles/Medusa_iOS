@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F26B8BEE-3CFB-476D-8B39-BDA7404F54EA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "401F2119-CA9D-438B-81FD-94006310D11B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Medusa/utils/PerseoUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "obtencionKeyChain()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "401F2119-CA9D-438B-81FD-94006310D11B - 6e3896eb36e5c485"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.obtencionKeyChain() -&gt; Medusa.PerseoAccountList"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "401F2119-CA9D-438B-81FD-94006310D11B - 6e3896eb36e5c485"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.obtencionKeyChain() -&gt; Medusa.PerseoAccountList"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "348">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EED9B0F4-11E9-4569-96E7-2B37FF605AE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Medusa/utils/PerseoUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "accesoKeyChain(perseoAccountList:user:pass:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "11CEAB33-686B-4745-9FD7-594201B750F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Medusa/utils/PerseoUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "obtencionKeyChain()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "11CEAB33-686B-4745-9FD7-594201B750F6 - b2a2adba05a7f1ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.obtencionKeyChain() -&gt; Swift.Array&lt;Medusa.PerseoAccount&gt;"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "11CEAB33-686B-4745-9FD7-594201B750F6 - b2a2adba05a7f1ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.obtencionKeyChain() -&gt; Swift.Array&lt;Medusa.PerseoAccount&gt;"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "11CEAB33-686B-4745-9FD7-594201B750F6 - b2a2adba05a7f1ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.obtencionKeyChain() -&gt; Swift.Array&lt;Medusa.PerseoAccount&gt;"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "200">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94AD8E9A-5232-43CC-A994-71F46D48A26F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Medusa/utils/PerseoUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "accesoKeyChain(perseoAccountList:user:pass:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94AD8E9A-5232-43CC-A994-71F46D48A26F - 40b4bcd23fb9de6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.accesoKeyChain(perseoAccountList: Medusa.PerseoAccountList, user: Swift.String, pass: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "884">
+               </Location>
+               <Location
+                  uuid = "94AD8E9A-5232-43CC-A994-71F46D48A26F - 40b4bcd23fb9de6a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.accesoKeyChain(perseoAccountList: Medusa.PerseoAccountList, user: Swift.String, pass: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "964">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8EEF502A-1DF1-4286-8C12-24555A5A5117"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Medusa/MainLogin.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "doLogin()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "144F57D1-BF81-4A6A-98F4-AF9874FACC5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Medusa/utils/PerseoUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "accesoKeyChain(perseoAccountList:user:pass:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "144F57D1-BF81-4A6A-98F4-AF9874FACC5C - 40b4bcd23fb9d07b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.accesoKeyChain(perseoAccountList: Medusa.PerseoAccountList, user: Swift.String, pass: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "144F57D1-BF81-4A6A-98F4-AF9874FACC5C - 40b4bcd23fb9d39a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.accesoKeyChain(perseoAccountList: Medusa.PerseoAccountList, user: Swift.String, pass: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "144F57D1-BF81-4A6A-98F4-AF9874FACC5C - 40b4bcd23fb9d39a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.accesoKeyChain(perseoAccountList: Medusa.PerseoAccountList, user: Swift.String, pass: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6847006D-2530-48E0-A451-86780859BDBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Medusa/utils/PerseoUtils.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "obtencionKeyChain()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6847006D-2530-48E0-A451-86780859BDBD - 6e3896eb36e5c4aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.obtencionKeyChain() -&gt; Medusa.PerseoAccountList"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "6847006D-2530-48E0-A451-86780859BDBD - 6e3896eb36e5c4aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static Medusa.PerseoUtils.obtencionKeyChain() -&gt; Medusa.PerseoAccountList"
+                  moduleName = "Medusa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/venturadelucas/Downloads/Medusa/Medusa/utils/PerseoUtils.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

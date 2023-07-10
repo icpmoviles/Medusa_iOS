@@ -1,0 +1,6 @@
+framework module Pods_Medusa {
+  umbrella header "Pods-Medusa-umbrella.h"
+
+  export *
+  module * { export * }
+}

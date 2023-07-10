@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43BB6F892A38405900CEE302 /* PerseoAccountList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB6F882A38405900CEE302 /* PerseoAccountList.swift */; };
+		43CCE3132A36F1F400CA40E6 /* PerseoAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CCE3122A36F1F400CA40E6 /* PerseoAccount.swift */; };
+		43CCE3162A36F45900CA40E6 /* PerseoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CCE3152A36F45900CA40E6 /* PerseoUtils.swift */; };
+		982FAE332DCF76FB61E47E90 /* Pods_Medusa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BDB72D83ACD1B9F6CD688D /* Pods_Medusa.framework */; };
+		F06A1E8B2A02963800DDE1F9 /* MedusaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1E8A2A02963800DDE1F9 /* MedusaApp.swift */; };
+		F06A1E8D2A02963800DDE1F9 /* MainLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1E8C2A02963800DDE1F9 /* MainLogin.swift */; };
+		F06A1E8F2A02963B00DDE1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06A1E8E2A02963B00DDE1F9 /* Assets.xcassets */; };
+		F06A1E922A02963B00DDE1F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06A1E912A02963B00DDE1F9 /* Preview Assets.xcassets */; };
+		F06A1E992A02A40D00DDE1F9 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1E982A02A40D00DDE1F9 /* SecureInputView.swift */; };
+		F06A1E9B2A02A59D00DDE1F9 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1E9A2A02A59D00DDE1F9 /* LoginRequest.swift */; };
+		F06A1E9D2A02A5E700DDE1F9 /* RepoLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1E9C2A02A5E700DDE1F9 /* RepoLogin.swift */; };
+		F06A1E9F2A02A60000DDE1F9 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1E9E2A02A60000DDE1F9 /* Constantes.swift */; };
+		F06A1EA12A02A69B00DDE1F9 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1EA02A02A69B00DDE1F9 /* LoginResponse.swift */; };
+		F06A1EA32A04F6CE00DDE1F9 /* RepoBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06A1EA22A04F6CE00DDE1F9 /* RepoBase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F43CF661629BB551C84040B /* Pods-Medusa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medusa.release.xcconfig"; path = "Target Support Files/Pods-Medusa/Pods-Medusa.release.xcconfig"; sourceTree = "<group>"; };
+		43BB6F882A38405900CEE302 /* PerseoAccountList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseoAccountList.swift; sourceTree = "<group>"; };
+		43CCE3122A36F1F400CA40E6 /* PerseoAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseoAccount.swift; sourceTree = "<group>"; };
+		43CCE3152A36F45900CA40E6 /* PerseoUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseoUtils.swift; sourceTree = "<group>"; };
+		43E8830D2A37303700766BF9 /* Medusa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Medusa.entitlements; sourceTree = "<group>"; };
+		73BDB72D83ACD1B9F6CD688D /* Pods_Medusa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medusa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6D2CDABAA904EE8056C5F3 /* Pods-Medusa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medusa.debug.xcconfig"; path = "Target Support Files/Pods-Medusa/Pods-Medusa.debug.xcconfig"; sourceTree = "<group>"; };
+		F06A1E872A02963800DDE1F9 /* Medusa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medusa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06A1E8A2A02963800DDE1F9 /* MedusaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedusaApp.swift; sourceTree = "<group>"; };
+		F06A1E8C2A02963800DDE1F9 /* MainLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLogin.swift; sourceTree = "<group>"; };
+		F06A1E8E2A02963B00DDE1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06A1E912A02963B00DDE1F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F06A1E982A02A40D00DDE1F9 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
+		F06A1E9A2A02A59D00DDE1F9 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		F06A1E9C2A02A5E700DDE1F9 /* RepoLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoLogin.swift; sourceTree = "<group>"; };
+		F06A1E9E2A02A60000DDE1F9 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		F06A1EA02A02A69B00DDE1F9 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		F06A1EA22A04F6CE00DDE1F9 /* RepoBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoBase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06A1E842A02963800DDE1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982FAE332DCF76FB61E47E90 /* Pods_Medusa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43CCE3112A36F1A900CA40E6 /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				43CCE3122A36F1F400CA40E6 /* PerseoAccount.swift */,
+				43BB6F882A38405900CEE302 /* PerseoAccountList.swift */,
+			);
+			path = modelos;
+			sourceTree = "<group>";
+		};
+		43CCE3142A36F44200CA40E6 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				43CCE3152A36F45900CA40E6 /* PerseoUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		47CCCCDDAEAE3AC2FC0A1E33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA6D2CDABAA904EE8056C5F3 /* Pods-Medusa.debug.xcconfig */,
+				3F43CF661629BB551C84040B /* Pods-Medusa.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8E7C468D2BDD907D01FD717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73BDB72D83ACD1B9F6CD688D /* Pods_Medusa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F06A1E7E2A02963700DDE1F9 = {
+			isa = PBXGroup;
+			children = (
+				F06A1E892A02963800DDE1F9 /* Medusa */,
+				F06A1E882A02963800DDE1F9 /* Products */,
+				47CCCCDDAEAE3AC2FC0A1E33 /* Pods */,
+				C8E7C468D2BDD907D01FD717 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F06A1E882A02963800DDE1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06A1E872A02963800DDE1F9 /* Medusa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06A1E892A02963800DDE1F9 /* Medusa */ = {
+			isa = PBXGroup;
+			children = (
+				43E8830D2A37303700766BF9 /* Medusa.entitlements */,
+				43CCE3142A36F44200CA40E6 /* utils */,
+				43CCE3112A36F1A900CA40E6 /* modelos */,
+				F06A1E8A2A02963800DDE1F9 /* MedusaApp.swift */,
+				F06A1E8C2A02963800DDE1F9 /* MainLogin.swift */,
+				F06A1E8E2A02963B00DDE1F9 /* Assets.xcassets */,
+				F06A1E902A02963B00DDE1F9 /* Preview Content */,
+				F06A1E982A02A40D00DDE1F9 /* SecureInputView.swift */,
+				F06A1E9A2A02A59D00DDE1F9 /* LoginRequest.swift */,
+				F06A1E9C2A02A5E700DDE1F9 /* RepoLogin.swift */,
+				F06A1E9E2A02A60000DDE1F9 /* Constantes.swift */,
+				F06A1EA02A02A69B00DDE1F9 /* LoginResponse.swift */,
+				F06A1EA22A04F6CE00DDE1F9 /* RepoBase.swift */,
+			);
+			path = Medusa;
+			sourceTree = "<group>";
+		};
+		F06A1E902A02963B00DDE1F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F06A1E912A02963B00DDE1F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06A1E862A02963800DDE1F9 /* Medusa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06A1E952A02963B00DDE1F9 /* Build configuration list for PBXNativeTarget "Medusa" */;
+			buildPhases = (
+				E0196F9CD33676430E425DAC /* [CP] Check Pods Manifest.lock */,
+				F06A1E832A02963800DDE1F9 /* Sources */,
+				F06A1E842A02963800DDE1F9 /* Frameworks */,
+				F06A1E852A02963800DDE1F9 /* Resources */,
+				A9494BCF29F58203C85D7852 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medusa;
+			productName = Medusa;
+			productReference = F06A1E872A02963800DDE1F9 /* Medusa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06A1E7F2A02963700DDE1F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F06A1E862A02963800DDE1F9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F06A1E822A02963700DDE1F9 /* Build configuration list for PBXProject "Medusa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06A1E7E2A02963700DDE1F9;
+			productRefGroup = F06A1E882A02963800DDE1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06A1E862A02963800DDE1F9 /* Medusa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06A1E852A02963800DDE1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06A1E922A02963B00DDE1F9 /* Preview Assets.xcassets in Resources */,
+				F06A1E8F2A02963B00DDE1F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9494BCF29F58203C85D7852 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medusa/Pods-Medusa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Medusa/Pods-Medusa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Medusa/Pods-Medusa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0196F9CD33676430E425DAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Medusa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06A1E832A02963800DDE1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BB6F892A38405900CEE302 /* PerseoAccountList.swift in Sources */,
+				F06A1E8D2A02963800DDE1F9 /* MainLogin.swift in Sources */,
+				F06A1E9D2A02A5E700DDE1F9 /* RepoLogin.swift in Sources */,
+				F06A1EA32A04F6CE00DDE1F9 /* RepoBase.swift in Sources */,
+				43CCE3162A36F45900CA40E6 /* PerseoUtils.swift in Sources */,
+				F06A1E992A02A40D00DDE1F9 /* SecureInputView.swift in Sources */,
+				F06A1E8B2A02963800DDE1F9 /* MedusaApp.swift in Sources */,
+				F06A1E9B2A02A59D00DDE1F9 /* LoginRequest.swift in Sources */,
+				F06A1E9F2A02A60000DDE1F9 /* Constantes.swift in Sources */,
+				F06A1EA12A02A69B00DDE1F9 /* LoginResponse.swift in Sources */,
+				43CCE3132A36F1F400CA40E6 /* PerseoAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F06A1E932A02963B00DDE1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06A1E942A02963B00DDE1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06A1E962A02963B00DDE1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6D2CDABAA904EE8056C5F3 /* Pods-Medusa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Medusa/Medusa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medusa/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AU6VN5BL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.icp.Medusa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06A1E972A02963B00DDE1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F43CF661629BB551C84040B /* Pods-Medusa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Medusa/Medusa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medusa/Preview Content\"";
+				DEVELOPMENT_TEAM = 8AU6VN5BL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = es.icp.Medusa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06A1E822A02963700DDE1F9 /* Build configuration list for PBXProject "Medusa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06A1E932A02963B00DDE1F9 /* Debug */,
+				F06A1E942A02963B00DDE1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06A1E952A02963B00DDE1F9 /* Build configuration list for PBXNativeTarget "Medusa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06A1E962A02963B00DDE1F9 /* Debug */,
+				F06A1E972A02963B00DDE1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06A1E7F2A02963700DDE1F9 /* Project object */;
+}

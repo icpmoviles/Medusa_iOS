@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Medusa"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "Common use cases for Perseo projects"
 
   # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}", "Classes/**/*.swift"
+  s.source_files = 'ICP_Commons_iOS/Classes/**/*'
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
